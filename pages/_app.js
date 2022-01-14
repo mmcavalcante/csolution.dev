@@ -7,7 +7,7 @@ function MyApp({ Component, pageProps }) {
   return (
     <>
       <Head>
-        <title>Pet Care App</title>
+        <title>csolution.dev</title>
       </Head>
 
       <div className="top-bar">
@@ -16,15 +16,15 @@ function MyApp({ Component, pageProps }) {
             <a>Home</a>
           </Link>
           <Link href="/new">
-            <a>Add Pet</a>
+            <a>Add Card</a>
           </Link>
         </div>
 
-        <img
-          id="title"
-          src="https://upload.wikimedia.org/wikipedia/commons/1/1f/Pet_logo_with_flowers.png"
-          alt="pet care logo"
-        ></img>
+          <img
+            id="title"
+            src="https://images.vexels.com/media/users/3/130718/isolated/lists/9368407454443561ac004d20786d4b43-grid-on-globe-icon.png"
+            alt="csolution.dev"
+          ></img>
       </div>
       <div className="grid wrapper">
         <Component {...pageProps} />
